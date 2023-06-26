@@ -18,9 +18,7 @@ from django.contrib import admin
 from django.http import HttpResponse
 from django.urls import path
 
-
-def home_page(request):
-    return HttpResponse("olá mundo")
+from recipes.views import home_page
 
 urlpatterns = [
     path('admin/', admin.site.urls),
