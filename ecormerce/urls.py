@@ -19,10 +19,10 @@ from django.http import HttpResponse
 from django.urls import path
 
 
-def home(request):
-    return HttpResponse("uma string")
+def home_page(request):
+    return HttpResponse("olá mundo")
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('home/', home),
+    path('home/', home_page),
 ]
