@@ -5,4 +5,4 @@ from django.shortcuts import render
 
 
 def home_page(request):
-    return render(request, "home.html")
+    return render(request, "ecomerce/home.html")
