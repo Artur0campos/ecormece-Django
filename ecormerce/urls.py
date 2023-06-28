@@ -17,7 +17,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import include, path
 
-from recipes.views import home_page
+from pontocom_livros.views import home_page
 
 urlpatterns = [
     path('admin/', admin.site.urls),
