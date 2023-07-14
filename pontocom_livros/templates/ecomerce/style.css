@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 100vw;
+    height: 100vh;
+}
+.head{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+}
+
+.search-bar{
+    display: flex;
+    justify-content: center;
+}
+
+.search-bar > input{
+    width: 40vw;
+    margin: 30px 30px;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-field{
+    margin: 40px;
+
+}
+
+.btn{
+    transform: rotate(36);
+}
