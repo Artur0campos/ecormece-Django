@@ -21,5 +21,5 @@ from pontocom_livros.views import home_page
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('',include('recipes.urls'))
+    path('',include('pontocom_livros.urls'))
 ]
